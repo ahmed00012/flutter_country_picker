@@ -227,7 +227,7 @@ class _CountryListViewState extends State<CountryListView> {
                   if (widget.showPhoneCode && !country.iswWorldWide) ...[
                     const SizedBox(width: 15),
                     SizedBox(
-                      width: 45,
+                      width: 55,
                       child: Text(
                         '${isRtl ? '' : '+'}${country.phoneCode}${isRtl ? '+' : ''}',
                         style: _textStyle,
